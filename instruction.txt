@@ -1,0 +1,36 @@
+			###########################################
+			#    INSTRUCTION OF SLOT MACHINE GAME     #
+			###########################################
+
+This game simulates the real slot machine where the players can insert the money and
+withdraw the money whenever they want.
+STEPS TO DO and OTHER INFO:
+01. The player has to insert the money and click "Add" button
+02. The player has to insert the bet
+03. Spin the reels by clicking "SPIN"
+04. The player can lock the button by clicking LOCK button underneath each reel, when
+    that button is Green, it means that the corresponding reel is UNLOCKED. The reel can
+    be unlocked by clicking UNLOCK button underneath each reel. If the button is Red, it
+    means that the reel is LOCKED.
+05. The button "UNLOCK ALL" unlocks all the reels
+06. After the player wins, the player cannot lock the reels
+07. The calculation of how much money the player wins, depends on the weight of each
+    symbols. The calculating of weight is based on the frequencies of symbols. The info
+    is shown on the top of the display.
+08. The player wins the money if he/she is lucky enough go get the same symbols on
+    at least one horizontal line (3 lines) or one diagonal line (2 lines).
+09. The winning paylines will be summed up together. So if the player can get many lines
+    with the same symbols, the player can get handsome amount of money.
+10. The player can withdraw his/her money anytime during the game as long as the player
+    has money in the machine by clicking "WITHDRAW".
+11. The player can quit the game by clicking "QUIT"
+12. When the player wins the game, the winning symbol will be highlighted with yellow
+    color. For horizontal winning, there is no gap between highlighted color symbol to
+    make it look good.
+
+Rules for the LOCK/UNLOCK:
+01. The reels will be automatically UNLOCKED and disabled (the player cannot lock it) 
+    when the player wins the game.
+02. The player can only lock the reel(s) for 1 game, after that, the all the reels will
+    be automatically UNLOCKED and disabled.
+03. The player cannot lock all the reels and spin, at least one reel should be unlocked.
